@@ -1,0 +1,460 @@
+
+/*
+Thanks for using FonitfyJS here can you manage all of the proccesed fonts for your project, enjoy!
+*/
+@tailwind utilities;
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_lightitalic';
+    src: url('./public/fonts/fontify/montserrat/montserrat_lightitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_semibold';
+    src: url('./public/fonts/fontify/montserrat/montserrat_semibold.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_mediumitalic';
+    src: url('./public/fonts/fontify/montserrat/montserrat_mediumitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_black';
+    src: url('./public/fonts/fontify/montserrat/montserrat_black.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_regular';
+    src: url('./public/fonts/fontify/montserrat/montserrat_regular.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_italic_variablefont_wght';
+    src: url('./public/fonts/fontify/montserrat/montserrat_italic_variablefont_wght.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_extralightitalic';
+    src: url('./public/fonts/fontify/montserrat/montserrat_extralightitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_italic';
+    src: url('./public/fonts/fontify/montserrat/montserrat_italic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_thinitalic';
+    src: url('./public/fonts/fontify/montserrat/montserrat_thinitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_bold';
+    src: url('./public/fonts/fontify/montserrat/montserrat_bold.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_bolditalic';
+    src: url('./public/fonts/fontify/montserrat/montserrat_bolditalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_extralight';
+    src: url('./public/fonts/fontify/montserrat/montserrat_extralight.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_light';
+    src: url('./public/fonts/fontify/montserrat/montserrat_light.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_extrabold';
+    src: url('./public/fonts/fontify/montserrat/montserrat_extrabold.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_variablefont_wght';
+    src: url('./public/fonts/fontify/montserrat/montserrat_variablefont_wght.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_blackitalic';
+    src: url('./public/fonts/fontify/montserrat/montserrat_blackitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_medium';
+    src: url('./public/fonts/fontify/montserrat/montserrat_medium.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_thin';
+    src: url('./public/fonts/fontify/montserrat/montserrat_thin.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_semibolditalic';
+    src: url('./public/fonts/fontify/montserrat/montserrat_semibolditalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'MONTSERRAT_montserrat_extrabolditalic';
+    src: url('./public/fonts/fontify/montserrat/montserrat_extrabolditalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_lightitalic';
+    src: url('./public/fonts/fontify/inter/inter_18pt_lightitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_regular';
+    src: url('./public/fonts/fontify/inter/inter_18pt_regular.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_light';
+    src: url('./public/fonts/fontify/inter/inter_18pt_light.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_extralightitalic';
+    src: url('./public/fonts/fontify/inter/inter_24pt_extralightitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_semibold';
+    src: url('./public/fonts/fontify/inter/inter_18pt_semibold.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_extrabold';
+    src: url('./public/fonts/fontify/inter/inter_28pt_extrabold.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_medium';
+    src: url('./public/fonts/fontify/inter/inter_24pt_medium.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_lightitalic';
+    src: url('./public/fonts/fontify/inter/inter_24pt_lightitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_bold';
+    src: url('./public/fonts/fontify/inter/inter_18pt_bold.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_italic';
+    src: url('./public/fonts/fontify/inter/inter_28pt_italic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_variablefont_opsz_wght';
+    src: url('./public/fonts/fontify/inter/inter_variablefont_opsz_wght.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_extrabolditalic';
+    src: url('./public/fonts/fontify/inter/inter_18pt_extrabolditalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_semibold';
+    src: url('./public/fonts/fontify/inter/inter_24pt_semibold.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_medium';
+    src: url('./public/fonts/fontify/inter/inter_28pt_medium.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_extrabold';
+    src: url('./public/fonts/fontify/inter/inter_18pt_extrabold.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_light';
+    src: url('./public/fonts/fontify/inter/inter_24pt_light.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_black';
+    src: url('./public/fonts/fontify/inter/inter_28pt_black.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_italic';
+    src: url('./public/fonts/fontify/inter/inter_18pt_italic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_extralightitalic';
+    src: url('./public/fonts/fontify/inter/inter_28pt_extralightitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_bolditalic';
+    src: url('./public/fonts/fontify/inter/inter_24pt_bolditalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_black';
+    src: url('./public/fonts/fontify/inter/inter_24pt_black.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_bold';
+    src: url('./public/fonts/fontify/inter/inter_24pt_bold.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_thin';
+    src: url('./public/fonts/fontify/inter/inter_24pt_thin.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_light';
+    src: url('./public/fonts/fontify/inter/inter_28pt_light.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_blackitalic';
+    src: url('./public/fonts/fontify/inter/inter_24pt_blackitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_mediumitalic';
+    src: url('./public/fonts/fontify/inter/inter_28pt_mediumitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_extrabold';
+    src: url('./public/fonts/fontify/inter/inter_24pt_extrabold.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_semibold';
+    src: url('./public/fonts/fontify/inter/inter_28pt_semibold.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_extrabolditalic';
+    src: url('./public/fonts/fontify/inter/inter_28pt_extrabolditalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_blackitalic';
+    src: url('./public/fonts/fontify/inter/inter_28pt_blackitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_regular';
+    src: url('./public/fonts/fontify/inter/inter_28pt_regular.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_italic_variablefont_opsz_wght';
+    src: url('./public/fonts/fontify/inter/inter_italic_variablefont_opsz_wght.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_extralight';
+    src: url('./public/fonts/fontify/inter/inter_28pt_extralight.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_mediumitalic';
+    src: url('./public/fonts/fontify/inter/inter_18pt_mediumitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_thinitalic';
+    src: url('./public/fonts/fontify/inter/inter_18pt_thinitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_bolditalic';
+    src: url('./public/fonts/fontify/inter/inter_18pt_bolditalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_medium';
+    src: url('./public/fonts/fontify/inter/inter_18pt_medium.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_semibolditalic';
+    src: url('./public/fonts/fontify/inter/inter_24pt_semibolditalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_semibolditalic';
+    src: url('./public/fonts/fontify/inter/inter_18pt_semibolditalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_bolditalic';
+    src: url('./public/fonts/fontify/inter/inter_28pt_bolditalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_extralightitalic';
+    src: url('./public/fonts/fontify/inter/inter_18pt_extralightitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_thinitalic';
+    src: url('./public/fonts/fontify/inter/inter_28pt_thinitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_regular';
+    src: url('./public/fonts/fontify/inter/inter_24pt_regular.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_extrabolditalic';
+    src: url('./public/fonts/fontify/inter/inter_24pt_extrabolditalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_blackitalic';
+    src: url('./public/fonts/fontify/inter/inter_18pt_blackitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_bold';
+    src: url('./public/fonts/fontify/inter/inter_28pt_bold.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_semibolditalic';
+    src: url('./public/fonts/fontify/inter/inter_28pt_semibolditalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_extralight';
+    src: url('./public/fonts/fontify/inter/inter_24pt_extralight.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_thinitalic';
+    src: url('./public/fonts/fontify/inter/inter_24pt_thinitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_thin';
+    src: url('./public/fonts/fontify/inter/inter_28pt_thin.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_black';
+    src: url('./public/fonts/fontify/inter/inter_18pt_black.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_italic';
+    src: url('./public/fonts/fontify/inter/inter_24pt_italic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_thin';
+    src: url('./public/fonts/fontify/inter/inter_18pt_thin.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_24pt_mediumitalic';
+    src: url('./public/fonts/fontify/inter/inter_24pt_mediumitalic.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_18pt_extralight';
+    src: url('./public/fonts/fontify/inter/inter_18pt_extralight.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'INTER_inter_28pt_lightitalic';
+    src: url('./public/fonts/fontify/inter/inter_28pt_lightitalic.woff2') format('woff2');
+}
