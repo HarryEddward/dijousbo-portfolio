@@ -1,3 +1,4 @@
+import { PageAbout } from './pages/About';
 import {PageHome} from './pages/Home'
 import { RouteConfig } from './types';
 
@@ -6,6 +7,10 @@ const routes: RouteConfig[] = [
   {
     path: '/',
     component: PageHome,
+  },
+  {
+    path: '/about',
+    component: PageAbout,
   },
 ];
 

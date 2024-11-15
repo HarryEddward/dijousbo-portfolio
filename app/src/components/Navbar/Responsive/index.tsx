@@ -1,11 +1,12 @@
 import { Sling as Hamburger } from 'hamburger-react';
-import { JSX, useEffect } from "react";
+import React, { JSX, useEffect } from "react";
 import { motion, useAnimation } from 'framer-motion';
 import { useNavbarStore } from '../../../stores/storeNavbar';
+import { Link } from 'react-router-dom';
 
 export function NavbarResponsive(): JSX.Element {
 
-    const { isOpen, toggleNavbar } = useNavbarStore();
+    const { isOpen, toggleNavbar, itemsNavbarDesktop } = useNavbarStore();
     console.log(isOpen)
     const navbarAnimation = useAnimation();
 
@@ -29,7 +30,7 @@ export function NavbarResponsive(): JSX.Element {
     }, [isOpen, navbarAnimation])
 
     return(
-        <div className='relative'>
+        <div className='relative z-30'>
             <div className="flex p-5">
                 <Hamburger toggled={isOpen} toggle={toggleNavbar} size={50}/>
             </div>
@@ -38,21 +39,33 @@ export function NavbarResponsive(): JSX.Element {
                     initial={{ opacity: 1 }}
                     animate={navbarAnimation}
                     className={`absolute top-0 left-0 w-full h-screen backdrop-blur-md`}>
-                    <div className='text-[8vw]'>
-                        <motion.button
-                            initial={{
-                                scale: 1
-                            }}
-                            whileTap={{
-                                scale: 0.8,
-                                transition: {
-                                    duration: 0.2
-                                }
-                            }}
-                            className='w-full py-0 bg-primary-background'>
-                            Home
-                        </motion.button>
-                    </div>
+                    
+                    {
+                        itemsNavbarDesktop.map((item) => (
+                            
+                            <React.Fragment key={item.name}>
+                                <div className='text-[8vw]'>
+                                    <motion.button
+                                        initial={{
+                                            scale: 1
+                                        }}
+                                        whileTap={{
+                                            scale: 0.8,
+                                            transition: {
+                                                duration: 0.2
+                                            }
+                                        }}
+                                        className='w-full py-0 bg-primary-background'>
+                                        <Link to={item.link}>
+                                            <span>{item.name}</span>
+                                        </Link>
+                                    </motion.button>
+                                </div>
+                            </React.Fragment>
+                            
+                        ))
+                    }
+                    
                 </motion.div>
             </div>
         </div>
