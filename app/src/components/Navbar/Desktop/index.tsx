@@ -15,7 +15,7 @@ export function NavbarDesktop() {
         <div>
             <div className="flex justify-between py-5">
                 <div></div>
-                <div className="flex gap-x-3 select-none">
+                <div className="flex gap-x-3 select-none z-[90]">
                     {
                         itemsNavbarDesktop.map((item) => (
                             <React.Fragment key={item.name}>

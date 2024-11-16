@@ -11,7 +11,7 @@ export function ViewHome(): JSX.Element {
 
     useEffect(() => {
         setSelectedItemNavbarDesktop("Home");
-    }, []);
+    }, [selectedItemNavbarDesktop]);
 
     return(
         <div>

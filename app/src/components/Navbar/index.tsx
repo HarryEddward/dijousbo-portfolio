@@ -1,6 +1,7 @@
 import { JSX } from "react";
 import { NavbarResponsive } from "./Responsive";
 import { NavbarDesktop } from "./Desktop";
+import { Theater } from "../../views/Home/components/Theater";
 
 export function Navbar(): JSX.Element {
 
@@ -10,6 +11,7 @@ export function Navbar(): JSX.Element {
                 <NavbarDesktop/>
             </div>
             <div className="block lg:hidden">
+                <Theater/>
                 <NavbarResponsive/>
             </div>
             

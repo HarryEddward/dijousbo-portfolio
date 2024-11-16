@@ -30,7 +30,7 @@ export function NavbarResponsive(): JSX.Element {
     }, [isOpen, navbarAnimation])
 
     return(
-        <div className='relative z-30'>
+        <div className='relative z-50'>
             <div className="flex p-5">
                 <Hamburger toggled={isOpen} toggle={toggleNavbar} size={50}/>
             </div>
@@ -38,13 +38,13 @@ export function NavbarResponsive(): JSX.Element {
                 <motion.div
                     initial={{ opacity: 1 }}
                     animate={navbarAnimation}
-                    className={`absolute top-0 left-0 w-full h-screen backdrop-blur-md`}>
+                    className={`absolute top-0 left-0 w-full h-screen backdrop-blur-md z-[90]`}>
                     
                     {
                         itemsNavbarDesktop.map((item) => (
                             
                             <React.Fragment key={item.name}>
-                                <div className='text-[8vw]'>
+                                <div className='text-[10vw]'>
                                     <motion.button
                                         initial={{
                                             scale: 1
