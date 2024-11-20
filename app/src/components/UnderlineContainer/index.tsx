@@ -8,7 +8,7 @@ type Props = {
 
 export function UnderlineContainer({ className, children }: Props): React.ReactElement<Props> {
     return (
-        <div className={`relative inline-block ${className} select-none`}>
+        <div className={`relative inline-block ${className}`}>
             <motion.span className="inline-block">
                 {children}
             </motion.span>

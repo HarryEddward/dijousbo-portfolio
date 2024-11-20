@@ -35,7 +35,7 @@ export function Theater() {
                 <img src="/img/theater-left.png" alt="" />
             </motion.div>
             <motion.div
-            className="absolute w-[100vh] h-[40vw] flex justify-center items-center backdrop-blur-md z-30 max-w-[400px] text-primary-text font-MONTSERRAT_montserrat_black flex-col"
+            className="absolute w-[100vh] h-[40vw] flex justify-center items-center backdrop-blur-md z-30 max-w-[400px] text-primary-text font-MONTSERRAT_montserrat_black flex-col rounded-2xl"
             initial={{
                 top: "-60vw",
             }}

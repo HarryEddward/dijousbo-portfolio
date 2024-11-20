@@ -1,6 +1,7 @@
 import { JSX } from "react";
 import { motion } from "framer-motion";
 import { UnderlineContainer } from "../../../../components/UnderlineContainer";
+import { FaGithub } from "react-icons/fa";
 
 export function HomeHeader(): JSX.Element {
   return (
@@ -50,6 +51,19 @@ export function HomeHeader(): JSX.Element {
           </motion.span>
         </span>
       </h1>
+      <div className="flex text-xl justify-center my-4 px-8 text-gray-600 font-MONTSERRAT_montserrat_light">
+        <div className="flex lg:flex-row border-2">
+          <div className="w-1/2 p-3">
+            
+            <h2><span className="bg-gradient-to-r from-red-500 to-orange-500 bg-opacity-20 text-white px-1">Demostrado</span><span className="px-2">a través de proyectos de automatización complejos y resultados reales</span></h2>
+          </div>
+          <div className="flex w-1/2 bg-gradient-to-r from-red-500 to-orange-500 justify-center items-center">
+            <FaGithub color="white" size={40}/>
+          </div>
+          
+        </div>
+        
+      </div>
     </div>
   );
 }

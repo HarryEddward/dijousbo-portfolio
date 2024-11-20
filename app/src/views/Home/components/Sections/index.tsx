@@ -25,7 +25,7 @@ export function HomeSections() {
                         </div>
                         
                         <div className="mt-4 md:mt-0 md:border-l-2 md:pl-3 border-primary-text min-w-80">
-                            <ImageContainer>
+                            <ImageContainer caption="Reservas manulaes con un cuaderno de reservas">
                                 <img src="/img/booking.jpg" alt="" />
                             </ImageContainer>
                             
@@ -62,7 +62,7 @@ export function HomeSections() {
                         </div>
                         
                         <div className="mt-4 md:mt-0 md:border-l-2 md:pl-3 border-primary-text min-w-80">
-                            <ImageContainer>
+                            <ImageContainer caption="Gráfico de monitoreo complejo">
                                 <img src="/img/graphic.jpg" className="" alt="" />
                             </ImageContainer>
                         </div>
