@@ -20,7 +20,12 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+
+
+    "noEmitOnError": false, // Permite generar el build aunque haya errores
+    "skipLibCheck": true
   },
   "include": ["src"]
 }

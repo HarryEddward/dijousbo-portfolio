@@ -13,7 +13,6 @@
     "@react-three/drei": "^9.116.1",
     "@react-three/fiber": "^8.17.10",
     "express": "^4.21.1",
-    "fontifyjs": "^0.0.4",
     "framer-motion": "^11.11.16",
     "hamburger-react": "^2.5.1",
     "i18next": "^23.16.5",
@@ -28,6 +27,7 @@
     "react-three-fiber": "^6.0.13",
     "serverless-http": "^3.2.0",
     "three": "^0.170.0",
+    "vite-plugin-checker": "^0.8.0",
     "zustand": "^5.0.1"
   },
   "devDependencies": {
